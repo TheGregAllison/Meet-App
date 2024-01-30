@@ -13,12 +13,15 @@
 
 ### Show/Hide Event Details:
 
+**Scenario:** Event are hidden by default.
+**Given** the main page is open
+**When** the app displays a list of event
+**Then** the event details are hidden by default
+
 **Scenario:** User shows event details
 **Given** the user is viewing the list of events
 **When** the user taps on a specific event
 **Then** the app should display the details of that event
-
----
 
 **Scenario:** User hides event details
 **Given** the user is viewing the details of an event
@@ -28,6 +31,11 @@
 ---
 
 ### Specify Number of Events:
+
+**SCENARIO:** 32 events will be displayed to user by default
+**Given** the user has not specified the number of events;
+**When** the user views the events;
+**Then** 32 events are shown by default.
 
 **Scenario:** User sets the number of events to display
 **Given** the user is on the Meet app home screen
