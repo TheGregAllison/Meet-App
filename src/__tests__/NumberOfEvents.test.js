@@ -6,7 +6,7 @@ describe('<NumberOfEvents /> component', () => {
   let NumberOfEventsComponent;
   beforeEach(() => {
     NumberOfEventsComponent = render(
-      <NumberOfEvents setNumberOfEvents={() => {}} />
+      <NumberOfEvents setNumberOfEvents={() => {}} setErrorAlert={() => {}} />
     );
   });
   test('contains textbox element', () => {

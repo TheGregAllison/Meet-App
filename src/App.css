@@ -98,3 +98,11 @@ input[type='number'] {
 .details-btn:hover {
   background-color: rgba(245, 245, 245, 0.75);
 }
+
+.alerts-container {
+  position: fixed;
+  top: 0px;
+  left: 20px;
+  width: 250px;
+  z-index: 1000;
+}
