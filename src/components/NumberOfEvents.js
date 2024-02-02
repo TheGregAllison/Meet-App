@@ -11,7 +11,7 @@ const NumberOfEvents = ({ setNumberOfEvents, setErrorAlert }) => {
 
     let errorText;
     if (isNaN(value) || value <= 0) {
-      errorText = 'Please enter a positive number';
+      errorText = 'Please enter a positive number.';
     } else {
       errorText = '';
       setNumberOfEvents(value);
