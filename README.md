@@ -1,6 +1,6 @@
 # Meet
 
-## UI Screenshot:<br /><br /> <img width="651" alt="Screenshot 2024-02-03 at 11 14 12 PM" src="https://github.com/TheGregAllison/meet/assets/146021687/d2fad4e2-25e1-405b-9621-18000ca4fec3">
+## UI Screenshot:<br /><br /> <img width="651" alt="Screenshot 2024-02-04 at 10 09 25 PM" src="https://github.com/TheGregAllison/meet/assets/146021687/4e3c12a0-8cd0-4bba-a0e3-ab4095903c31">
 
 
 ## User Scenarios
